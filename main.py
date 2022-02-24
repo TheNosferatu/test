@@ -18,7 +18,7 @@ def print3():
     print(a)
 def print5():
     b = int(input("Age "))
-    if b<20:
+    if b < 20:
         print('Ха-ха, попался, школьник')
     elif b > 30:
         print('Ну ты и старпёр')
@@ -71,4 +71,4 @@ def print10():
         a = int(input('Попробуй ещё раз, что ли  '))
     print('Поздравляю, если ты дошёл сюда с первого раза, то твоё iq выше 30')
 if __name__ == '__main__':
-    print10()
+    print4()
